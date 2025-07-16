@@ -76,11 +76,11 @@ print(f"liste - {len(words[3])}  hərf")
 
 numbers = [1, 2, 3, 4, 5]
 number_list=[]
-num=numbers[0] * numbers[0]
-num1=numbers[1] * numbers[1]
-num2=numbers[2] * numbers[2]
-num3=numbers[3] * numbers[3]
-num4=numbers[4] * numbers[4]
+num=numbers[0] **2
+num1=numbers[1] **2
+num2=numbers[2] **2
+num3=numbers[3] **2
+num4=numbers[4] **2
 
 number_list.append(num)
 number_list.append(num1)
